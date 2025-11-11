@@ -17,7 +17,7 @@ The **focal length** is computed once using a known distance and object width.
 
 ---
 
-## 🧱 Workspace Structure
+### 🧱 Workspace Structure
 config/
          └── pixel_focal_length.yaml
 src/
@@ -44,7 +44,7 @@ src/
 
 ---
 
-⚙️ Build & Run
+### ⚙️ Build & Run
 
 1️⃣ Clone and build
 cd ~/ros2_ws/src
@@ -58,7 +58,7 @@ source install/setup.bash
   ros2 run auv_vision distance
 Note: only run pixel_width_subscriber to find your camera's focal length you can change the object's known width also the objects distance from the camera according to you. Now run this by putting the blue object at the distance in pixel_focal_length.yaml file
 
-🧩 Dependencies
+### 🧩 Dependencies
 ROS 2 Humble (or newer)
 OpenCV (Python)
 rclpy and sensor_msgs packages
@@ -67,9 +67,9 @@ Install:
 sudo apt install ros-${ROS_DISTRO}-cv-bridge python3-opencv
 rosdep install --from-paths src --ignore-src -r -y
 
-📜 License
+### 📜 License
 This project is licensed under the Apache 2.0 License — see the LICENSE
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions, bug reports, and suggestions are welcome!
 Fork this repository, make your changes, and open a pull request.
