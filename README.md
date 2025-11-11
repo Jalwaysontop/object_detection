@@ -18,17 +18,29 @@ The **focal length** is computed once using a known distance and object width.
 ---
 
 ## 🧱 Workspace Structure
+config/
+         └── pixel_focal_length.yaml
 src/
- └── auv_vision/
-           ├── auv_vision/--- 
-                             └──camera_node.py
-           ├── package.xml   └──distance_node.py
-           ├── resource      └──focal_length_calculate.py
-           ├── test          └──operations.py
-           └── LICENSE       └──pixel_width_subscriber.py
-           └── setup.py      └──__init__.py
-           └── setup.cfg
-  └──config/pixel_focal_length.yaml
+└── auv_vision/
+    ├── auv_vision/
+    │   ├── __init__.py
+    │   ├── camera_node.py
+    │   ├── distance_node.py
+    │   ├── focal_length_calculate.py
+    │   ├── pixel_width_subscriber.py
+    │   
+    │
+    ├── resource/
+    │   └── (optional package resource files)
+    │
+    ├── test/
+    │   └── operations.py
+    │
+    ├── package.xml
+    ├── setup.py
+    ├── setup.cfg
+    └── LICENSE
+
 
 ---
 
