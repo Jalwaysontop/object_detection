@@ -1,0 +1,5 @@
+calibration:
+  P_avg: 212.0
+  box_object_width_cm: 17.9
+  known_distance_cm: 50
+focal_length_pixel: 592.1787709497207
